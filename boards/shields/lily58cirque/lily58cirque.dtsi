@@ -86,7 +86,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         multiplex-ratio = <31>;
         segment-remap;
         com-invdir;
-        com-sequential;
+        com-sequential;7
         inversion-on;
         prechargep = <0x22>;
     };
@@ -99,6 +99,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         sensitivity = "2x";
         sleep;
         //no-taps;
-        y-invert;
+        //y-invert;
+        x-invert;
     };
 };
