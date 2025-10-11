@@ -10,7 +10,7 @@
 
 / {
     chosen {
-        zephyr,display = &oled;
+        //zephyr,display = &oled;
         zmk,kscan = &kscan0;
         zmk,physical-layout = &kata0510_lily58_layout;
     };
