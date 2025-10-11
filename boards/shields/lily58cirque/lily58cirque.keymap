@@ -46,7 +46,7 @@
     tapping-term-ms = <200>;
 };
 
-&glidepoint_listener {
+&glidepoint_listener_right {
     scroller {
         layers = <LOWER>;
         input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 5>;

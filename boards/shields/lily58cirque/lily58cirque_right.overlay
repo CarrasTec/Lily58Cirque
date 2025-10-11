@@ -21,10 +21,10 @@
         ;
 };
 
-&glidepoint  {
+&glidepoint_right  {
     status = "okay";
 };
 
-&glidepoint_listener {
+&glidepoint_listener_right {
     status = "okay";
 };
