@@ -22,7 +22,7 @@
 
     glidepoint_left: glidepoint@1 {
         compatible = "cirque,pinnacle";
-        reg = <1>;
+        reg = <0>;
         status = "okay";
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
         sensitivity = "2x";
