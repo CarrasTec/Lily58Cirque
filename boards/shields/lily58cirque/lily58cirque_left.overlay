@@ -5,6 +5,7 @@
  */
 
 #include "lily58cirque.dtsi"
+#include "split_input.dtsi"
 
 &kscan0 {
     col-gpios
