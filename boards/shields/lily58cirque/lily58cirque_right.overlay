@@ -42,6 +42,6 @@
     device = <&glidepoint_right>;
 };
 
-&glidepoint_listener_left {
-    status = "okay";
-};
+//&glidepoint_listener_left {
+//    status = "okay";
+//};

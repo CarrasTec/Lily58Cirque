@@ -15,19 +15,16 @@ config I2C
 
 endif
 
-if SHIELD_LILY58CIRQUE_LEFT
+#if SHIELD_LILY58CIRQUE_LEFT
 
-config I2C
-	default y
+#config I2C
+#	default y
 
-endif
+#endif
 
 if SHIELD_LILY58CIRQUE_RIGHT || SHIELD_LILY58CIRQUE_LEFT
 
 config ZMK_SPLIT
     default y
-
-config I2C
-	default y
 
 endif
