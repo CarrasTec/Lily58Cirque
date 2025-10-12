@@ -46,11 +46,11 @@
     tapping-term-ms = <200>;
 };
 
-&glidepoint_listener {
-    scroller {
-        layers = <LOWER>;
+&glidepoint_listener_left {
+    //scroller {
+    //    layers = <LOWER>;
         input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 5>;
-    };
+    //};
 };
 
 
