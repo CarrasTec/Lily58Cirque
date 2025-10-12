@@ -25,7 +25,7 @@
         reg = <0x2a>;
         status = "okay";
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
-        sensitivity = "3x";
+        sensitivity = "2x";
         sleep;
         //no-taps;
         //y-invert;
