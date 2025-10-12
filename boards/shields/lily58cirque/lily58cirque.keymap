@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/pointing.h>
+#include "split_input.dtsi"
 
 #define DEFAULT  0
 #define LOWER    1
