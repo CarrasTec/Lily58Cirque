@@ -22,28 +22,27 @@
         ;
 };
 
-//&pro_micro_i2c {
-//    status = "okay";
-//
-//    glidepoint_right: glidepoint@2a {
-//        compatible = "cirque,pinnacle";
-//        reg = <0x2a>;
-//        status = "okay";
-//        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
-//        sensitivity = "2x";
-//        sleep;
-//        //no-taps;
-//        //y-invert;
-//        x-invert;
-//    };
-//};
+&pro_micro_i2c {
+    status = "okay";
 
-//&glidepoint_listener {
-//    status = "okay";
-//    device = <&glidepoint_right>;
-//};
+    glidepoint_right: glidepoint@2a {
+        compatible = "cirque,pinnacle";
+        reg = <0x2a>;
+        status = "okay";
+        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
+        sensitivity = "2x";
+        sleep;
+        //no-taps;
+        //y-invert;
+        x-invert;
+    };
+};
 
-//&glidepoint_listener_left {
 &glidepoint_listener {
+    status = "okay";
+    device = <&glidepoint_right>;
+};
+
+&glidepoint_split_listener {
     status = "okay";
 };
