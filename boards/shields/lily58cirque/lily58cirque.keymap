@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/pointing.h>
-#include "split_input.dtsi"
+//#include "split_input.dtsi"
 
 #define DEFAULT  0
 #define LOWER    1
@@ -47,12 +47,12 @@
     tapping-term-ms = <200>;
 };
 
-&glidepoint_listener_left {
+//&glidepoint_listener_left {
     //scroller {
     //    layers = <LOWER>;
-        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 5>;
+//        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 5>;
     //};
-};
+//};
 
 
 
