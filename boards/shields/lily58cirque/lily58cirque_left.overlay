@@ -36,5 +36,5 @@
 
 &glidepoint_split {
     device = <&glidepoint_left>;
-    input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 10>;
+    //input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 10>;
 };
