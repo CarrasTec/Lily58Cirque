@@ -5,7 +5,7 @@
 
         glidepoint_split: glidepoint_split@0 {
             compatible = "zmk,input-split";
-            reg = <0x0>;
+            reg = <0>;
         };
     };
 
