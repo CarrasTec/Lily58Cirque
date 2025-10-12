@@ -65,22 +65,6 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         compatible = "zmk,input-listener";
         status = "disabled";
     };
-
-    split_inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
-
-        glidepoint_split: glidepoint_split@1 {
-            compatible = "zmk,input-split";
-            reg = <0x2a>;
-        };
-    };
-
-//    glidepoint_listener_left: glidepoint_listener_left {
-//        compatible = "zmk,input-listener";
-//        status = "disabled";
-//        device = <&glidepoint_split>;
-//    };
 };
 
 &kata0510_lily58_layout {

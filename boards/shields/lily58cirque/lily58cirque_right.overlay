@@ -5,6 +5,7 @@
  */
 
 #include "lily58cirque.dtsi"
+#include "split_inputs.dtsi"
 
 &default_transform {
     col-offset = <6>;
